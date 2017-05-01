@@ -52,7 +52,7 @@ def massexploiter():
 def init():
     
     print('\n[1]-Get Drupal Website')
-    print('[2]-List Of IPs\n')
+    print('[2]-List Of Sites\n')
     choose = raw_input('Enter Option : ')
     if choose.isdigit():
         choose = int(choose)
